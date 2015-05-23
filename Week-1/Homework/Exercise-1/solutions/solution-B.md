@@ -1,4 +1,6 @@
 ```stata
+. use MYOPIA.dta
+
 . twoway(scatter MYOPIC SPHEQ)
 
 . graph export "D:\Graph0.png", as(png) replace
