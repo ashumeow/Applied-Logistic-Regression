@@ -816,3 +816,16 @@ Log likelihood = -168.67244                       Pseudo R2       =     0.2973
 618. |   6    .055396   1.055396   .0524884 |
      +--------------------------------------+
 ```
+```stata
+. quietly logit MYOPIC AGE
+
+. predict pihat
+(option pr assumed; Pr(MYOPIC))
+
+. scatter MYOPIC pihat AGE,xscale(range(10 100))
+
+. graph export "D:\Graph3.png", as(png) replace
+(note: file D:\Graph3.png not found)
+(file D:\Graph3.png written in PNG format)
+```
+![](http://geekresearchlab.net/coursera/applied-log-regress/Graph3.png)
