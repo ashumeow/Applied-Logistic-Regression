@@ -7,4 +7,4 @@
 <br>
 -- SYSTAT <br>
 -- STATA <br>	
-6. Homework
+6. <a href="https://github.com/ashumeow/Applied-Logistic-Regression/tree/master/Week-1/Homework">Homework</a>
